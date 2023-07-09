@@ -25,6 +25,7 @@ h1 {
 
 h3 {
     font: 2.6rem 'Chelsea Market', sans-serif;
+    padding: 0 1rem;
 }
 
 p {
@@ -95,6 +96,7 @@ button {
 #player-image {
     max-width: 200px;
     border-radius: 90px;
+    float: left;
 }
 
 .computer {
@@ -107,6 +109,7 @@ button {
 #computer-image {
     max-width: 200px;
     border-radius: 90px;
+    float: right;
 }
 
 

@@ -66,18 +66,18 @@ function checkWinner(computerChoice, playerChoice) {
 function updateScores(result) {
     if (result === "player") {
         playerScore.textContent = parseInt(playerScore.textContent) + 1;
-        playerUpdates.textContent = "You win!";
+        playerUpdates.textContent = "You win this round...";
         if (parseInt(playerScore.textContent) === 10) {
             endGame("player");
         }
     } else if (result === "computer") {
         computerScore.textContent = parseInt(computerScore.textContent) + 1;
-        playerUpdates.textContent = "Computer wins!";
+        playerUpdates.textContent = "Computer wins this round...";
         if (parseInt(computerScore.textContent) === 10) {
             endGame("computer");
         }
     } else {
-        playerUpdates.textContent = "Draw!";
+        playerUpdates.textContent = "Draw... you both lose :P";
     }
 }
 
