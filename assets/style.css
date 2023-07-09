@@ -24,8 +24,11 @@ h1 {
 }
 
 h3 {
-    font: 2.6rem 'Chelsea Market', sans-serif;
-    padding: 0 1rem;
+    font: 2.4rem 'Chelsea Market', sans-serif;
+}
+
+h4 {
+    font: 2.2rem 'Chelsea Market', sans-serif;
 }
 
 p {
@@ -33,7 +36,7 @@ p {
 }
 
 button {
-    font: 1.6rem 'Belanosima', sans-serif;
+    font: 2.2rem 'Belanosima', sans-serif;
     margin: 0.2rem;
     padding: 0.5rem;
     border-radius: 10px;
@@ -82,7 +85,9 @@ button {
 
 /* styling for player updates */
 #player-updates {
-    font-size: 3rem;
+    font-size: 4rem;
+    color: indigo;
+
 }
 
 .player {
