@@ -8,8 +8,15 @@ const playerImage = document.getElementById("player-image");
 const computerImage = document.getElementById("computer-image");
 const playerUpdates = document.getElementById("player-updates");
 const choices = ["rock", "paper", "scissors"];
+const dashboard = document.getElementById("game");
 
 let gameOver = false; //false at the beginning and can be made true to trigger endGame
+
+// The restart button will only appear at the end of the game
+restartButton.style.display = "none";
+
+
+
 
 // Event listeners for the buttons
 
@@ -89,10 +96,13 @@ function endGame(winner) {
     }
     playerUpdates.textContent = winner === "player" ? "Congratulations - you're the winner!!" : "Computer wins this time... try again?";
 
+    dashboard.style.display = "none";
+    restartButton.style.display = "flex";
+    restartButton.addEventListener("click", restartGame);
+
+
+
+
+
 }
-
-// Restart function
-
-// Hide the restart button initially
-restartButton.style.display = "none";
 

@@ -153,6 +153,10 @@ button:hover {
     border-radius: 20px;
 }
 
+#restart-button:hover {
+    cursor: pointer;
+}
+
 
 footer {
     width: 100%;
