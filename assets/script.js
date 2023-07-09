@@ -68,18 +68,26 @@ function updateScores(result) {
         playerScore.textContent = parseInt(playerScore.textContent) + 1;
         playerUpdates.textContent = "You win!";
         if (parseInt(playerScore.textContent) === 10) {
-            endGame("player")
+            endGame("player");
         }
     } else if (result === "computer") {
         computerScore.textContent = parseInt(computerScore.textContent) + 1;
         playerUpdates.textContent = "Computer wins!";
         if (parseInt(computerScore.textContent) === 10) {
-            endGame ("computer")
+            endGame("computer");
         }
     } else {
         playerUpdates.textContent = "Draw!";
     }
 }
 
+function endGame(winner) {
+    gameOver = true;
+    for (let button of buttons) {
+        button.disabled = true;
+    }
+    playerUpdates.textContent = winner === "player" ? "Congratulations - you're the winner!!" : "Computer wins this time... try again?";
+
+}
 
 
