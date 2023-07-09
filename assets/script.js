@@ -8,6 +8,8 @@ const computerImage = document.getElementById("computer-image");
 const playerUpdates = document.getElementById("player-updates");
 const choices = ["rock", "paper", "scissors"];
 
+let gameOver = false; //false at the beginning and can be made true to trigger endGame
+
 // Event listeners for the buttons
 
 for (let button of buttons) {
