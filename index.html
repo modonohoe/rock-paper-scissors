@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +14,30 @@
 <body>
     <header id="logo" class="flex-column flex-center">
         <h1 class="text-center">Rock Paper Scissors</h1>
-        <div id="main-img"><img src="./assets/images/rock.jpg" alt="cartoon rock"><img src="./assets/images/paper.jpg" alt="cartoon paper"><img src="./assets/images/scissors.jpg" alt="cartoon scissors"></div>
+        <div id="main-img"><img src="./assets/images/rock.jpg" alt="cartoon rock"><img src="./assets/images/paper.jpg"
+                alt="cartoon paper"><img src="./assets/images/scissors.jpg" alt="cartoon scissors"></div>
     </header>
+    <section id="game-container" class="flex-column flex-center">
+        <div id="game">
+            <!-- adapted from Code Institute walkthrough video -->
+            <p>Make your choice:</p>
+            <button aria-label="Rock" data-choice="0" class="control">Rock!</button>
+            <button aria-label="Paper" data-choice="1" class="control">Paper!</button>
+            <button aria-label="Scissors" data-choice="2" class="control">Scissors!</button>
+        </div>
+        <div id="player-updates" ></div>
+        <div class="flex-row">
+            <div class="player">
+                <h3 class="scores">Your score: <span id="player-score">0</span></h3>
+                <img id="player-image" src="./assets/images/player.png" alt="Player symbol smiley face">
+            </div>
+            <div class="computer">
+                <h3 class="scores">Computer's score: <span id="computer-score">0</span></h3>
+                <img id="computer-image" src="./assets/images/computer.png" alt="Computer symbol">
+            </div>
+        </div>
+
+    </section>
 </body>
 
 <!-- link to Javascript -->

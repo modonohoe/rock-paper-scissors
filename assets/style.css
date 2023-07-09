@@ -13,12 +13,6 @@
     font: 62.5% 'Belanosima', sans-serif;
 }
 
-/* spacing for general containers */
-.container {
-    margin: 1rem;
-    padding: 1rem;
-}
-
 #logo {
     padding: 1rem;
     width: 100%;
@@ -36,6 +30,7 @@ h1 {
 .flex-row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flex-column {
@@ -55,6 +50,52 @@ h1 {
 .text-center {
     text-align: center;
 }
+
+
+/* styling for game */
+
+#game-container {
+    width: 100%;
+}
+
+#game {
+    max-width: 900px;
+    padding: 2rem;
+    border: 2px thistle solid;
+    border-radius: 20px;
+}
+
+/* styling for player updates */
+#player-updates {}
+
+.player {
+    padding: 1rem;
+}
+
+.scores {}
+
+#player-score {}
+
+#player-image {
+    max-width: 200px;
+    border-radius: 90px;
+}
+
+.computer {
+    padding: 1rem;
+}
+
+#computer-score {}
+
+
+#computer-image {
+    max-width: 200px;
+    border-radius: 90px;
+}
+
+
+
+
 
 .hidden {
     display: none;
