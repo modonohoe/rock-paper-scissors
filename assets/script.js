@@ -99,10 +99,21 @@ function endGame(winner) {
     dashboard.style.display = "none";
     restartButton.style.display = "flex";
     restartButton.addEventListener("click", restartGame);
+}
 
+function restartGame() {
+    gameOver = false;
+    dashboard.style.display = "inline";
 
+    playerScore.textContent = "0";
+    computerScore.textContent = "0";
+    playerImage.src = `assets/images/player.png`;
+    computerImage.src = `assets/images/computer.png`;
+    playerUpdates.textContent = "aaaaand... begin!";
+    restartButton.style.display = "none";
+    for (let button of buttons) {
+        button.disabled = false; // Enable the buttons
 
-
-
+    }
 }
 
