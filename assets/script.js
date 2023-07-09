@@ -57,6 +57,10 @@ function checkWinner(computerChoice, playerChoice) {
     }
 }
 
+/**
+ * Updates score 
+ */
+
 function updateScores(result) {
     if (result === "player") {
         playerScore.textContent = parseInt(playerScore.textContent) + 1;
@@ -68,4 +72,6 @@ function updateScores(result) {
         playerUpdates.textContent = "Draw!";
     }
 }
+
+
 

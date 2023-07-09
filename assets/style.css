@@ -80,7 +80,9 @@ button {
 }
 
 /* styling for player updates */
-#player-updates {}
+#player-updates {
+    font-size: 3rem;
+}
 
 .player {
     padding: 1rem;
