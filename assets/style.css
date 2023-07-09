@@ -23,6 +23,21 @@ h1 {
     font: 5.4rem 'Chelsea Market', sans-serif;
 }
 
+h3 {
+    font: 2.6rem 'Chelsea Market', sans-serif;
+}
+
+p {
+    font: 1.6rem 'Belanosima', sans-serif;
+}
+
+button {
+    font: 1.6rem 'Belanosima', sans-serif;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
 #main-img>img {
     border-radius: 90px;
 }
@@ -51,7 +66,6 @@ h1 {
     text-align: center;
 }
 
-
 /* styling for game */
 
 #game-container {
@@ -60,7 +74,7 @@ h1 {
 
 #game {
     max-width: 900px;
-    padding: 2rem;
+    padding: 1rem 3rem;
     border: 2px thistle solid;
     border-radius: 20px;
 }
@@ -99,4 +113,16 @@ h1 {
 
 .hidden {
     display: none;
+}
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 70px;
+    padding-top: 1rem;
+    text-align: center;
 }
