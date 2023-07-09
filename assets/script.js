@@ -1,6 +1,7 @@
 // Constants
 
 const buttons = document.getElementsByClassName("control");
+const restartButton = document.getElementById("restart-button");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 const playerImage = document.getElementById("player-image");
@@ -90,4 +91,8 @@ function endGame(winner) {
 
 }
 
+// Restart function
+
+// Hide the restart button initially
+restartButton.style.display = "none";
 
