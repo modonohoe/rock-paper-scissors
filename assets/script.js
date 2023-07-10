@@ -15,9 +15,6 @@ let gameOver = false; //false at the beginning and can be made true to trigger e
 // The restart button will only appear at the end of the game
 restartButton.style.display = "none";
 
-
-
-
 // Event listeners for the buttons
 
 for (let button of buttons) {

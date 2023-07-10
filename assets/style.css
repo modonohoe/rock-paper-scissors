@@ -41,11 +41,25 @@ i {
     color: indigo;
 }
 
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 button {
-    font: 2.2rem 'Belanosima', sans-serif;
+    font: 1.2rem 'Belanosima', sans-serif;
+    max-width: 70px;
     margin: 0.2rem;
     padding: 0.5rem;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button>img {
+    max-width: 60px;
+    border-radius: 80px;
 }
 
 button:hover {
@@ -58,6 +72,8 @@ button:hover {
     max-width: 60px;
     margin: 1rem;
 }
+
+/* flex classes */
 
 .flex-row {
     display: flex;
@@ -97,12 +113,13 @@ button:hover {
     border-radius: 20px;
 }
 
+
+
 /* styling for player updates */
 #player-updates {
     padding-top: 1rem;
     font-size: 4rem;
     color: indigo;
-
 }
 
 .player {
@@ -119,7 +136,7 @@ button:hover {
 }
 
 #player-image {
-    max-width: 200px;
+    max-width: 127px;
     border-radius: 90px;
     float: left;
 }
@@ -135,7 +152,7 @@ button:hover {
 
 
 #computer-image {
-    max-width: 200px;
+    max-width: 127px;
     border-radius: 90px;
     float: right;
 }
@@ -171,4 +188,23 @@ footer {
     padding-bottom: 1rem;
     text-align: center;
     background-color: thistle;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 400px) {
+
+    .player>h3,
+    .computer>h3 {
+        font-size: 1.3rem;
+    }
+
+    #player-updates {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+
+    h1 {}
 }

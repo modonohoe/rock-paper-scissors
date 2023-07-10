@@ -14,8 +14,6 @@
 <body>
     <header id="logo" class="flex-column flex-center">
         <h1 class="text-center">Rock Paper Scissors</h1>
-        <div id="main-img"><img src="./assets/images/rock.jpg" alt="cartoon rock"><img src="./assets/images/paper.jpg"
-                alt="cartoon paper"><img src="./assets/images/scissors.jpg" alt="cartoon scissors"></div>
     </header>
     <section id="game-container" class="flex-column flex-center">
         <div class="flex-column flex-center">
@@ -28,11 +26,16 @@
             <!-- adapted from Code Institute walkthrough video -->
             <h4>Make your choice:</h4>
             <h4>(Best out of 10 wins)</h4>
-            <button aria-label="Rock" data-choice="0" class="control">rock</button>
-            <button aria-label="Paper" data-choice="1" class="control">paper</button>
-            <button aria-label="Scissors" data-choice="2" class="control">scissors</button>
+            <div id="button-container">
+                <button aria-label="Rock" data-choice="0" class="control"><img src="./assets/images/rock.jpg"
+                        alt="cartoon rock"></button>
+                <button aria-label="Paper" data-choice="1" class="control"><img src="./assets/images/paper.jpg"
+                        alt="cartoon paper"></button>
+                <button aria-label="Scissors" data-choice="2" class="control"><img src="./assets/images/scissors.jpg"
+                        alt="cartoon scissors"></button>
+            </div>
         </div>
-        <div id="player-updates"></div>
+        <div id="player-updates" class="text-center"></div>
 
         <div id="restart-button" class="control">
             <p>Play Again</p>
