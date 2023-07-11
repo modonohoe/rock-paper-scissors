@@ -136,43 +136,48 @@ Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for p
 
 ## **Testing and Validation**
 
-* I tested the game in the following browsers: Chrome, Firefox and Edge.
-* The game has been tested on multiple mobile devices in person and via all the available devices on Dev Tools toolbar.
-* I confirmed the fonts, colors and all text items are clear, adequately contrasted, legible and easy to understand.
+- I tested the game in the following browsers: Chrome, Firefox and Edge.
+- The game has been tested on multiple mobile devices in person and via all the available devices on Dev Tools toolbar.
+- I confirmed the fonts, colors and all text items are clear, adequately contrasted, legible and easy to understand.
+- Initially LightHouse returned a score of 98% as I skipped the use of 'h2' headings and began using 'h3'. This was flagged as bad practice for screen readers and all headings below 'h1' were amended.
+
+The LightHouse score is now 100% for all criteria:
+![Lighthouse Score](assets/images/documentation/lighthouse-review.jpg)
 
 ### **Bugs**
 
 #### **Solved Bugs**
 
-* I had an issues with my JavaScript syntax which cause my array items not to show. The error was using curved parentheses instead of square ones and this was easily addressed.
+- I had an issues with my JavaScript syntax which cause my array items not to show. The error was using curved parentheses instead of square ones and this was easily addressed.
 
-* When defining statements to toggle the display, the following did not work:
+- When defining statements to toggle the display, the following did not work:
 
 ![Syntax Issue](assets/images/documentation/syntax-order.png "Syntax order issues")
 
 Only when the dashboard statement was place above the restart statement was the display affected.
 
-* In the restartGame function, player and computer images needed to be re-sourced as without explicitly doing so resulted in the following error:
+- In the restartGame function, player and computer images needed to be re-sourced as without explicitly doing so resulted in the following error:
 
 ![Restarting Issue](assets/images/documentation/restarting-image-issue.png "Restarting image issue")
 
-* At one stage, the computer could not score against player - I did not document this well enough but I think it was another paretheses issue. It has been resolved.
+- At one stage, the computer could not score against player - I did not document this well enough but I think it was another paretheses issue. It has been resolved.
 
 ![Computer can't Score](assets/images/documentation/no-computer-wins.png "Computer scoring issue")
 
-* For most devices, the game will fill the height of the screen. There are a couple of shorter devices - namely the Google Nest Hub - where the sticky footer became an issue and overlapped/hid the scores. This was resolved with a media query where the display was changed to 'relative' on such devices.
+- For most devices, the game will fill the height of the screen. There are a couple of shorter devices - namely the Google Nest Hub - where the sticky footer became an issue and overlapped/hid the scores. This was resolved with a media query where the display was changed to 'relative' on such devices.
 
 #### Validator testing
 
-* HTML
-    * No errors found
+- HTML
 
-* CSS
-    * No errors found
+  - No errors found
+
+- CSS
+  - No errors found
 
 #### **Unfixed bugs**
 
-* There are no unfixed bugs.
+- There are no unfixed bugs.
 
 ## **Deployment and Development**
 
