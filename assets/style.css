@@ -23,11 +23,11 @@ h1 {
     font: 5.4rem 'Chelsea Market', sans-serif;
 }
 
-h3 {
+h2 {
     font: 2.4rem 'Chelsea Market', sans-serif;
 }
 
-h4 {
+h3 {
     font: 2.2rem 'Chelsea Market', sans-serif;
 }
 
@@ -203,8 +203,8 @@ footer a {
 
 @media only screen and (max-width: 400px) {
 
-    .player>h3,
-    .computer>h3 {
+    .player>h2,
+    .computer>h2 {
         font-size: 1.3rem;
     }
 
@@ -228,12 +228,12 @@ footer a {
         font: 2.8rem 'Chelsea Market', sans-serif;
     }
 
-    h3 {
+    h2 {
         font: 1.7rem 'Chelsea Market', sans-serif;
     }
 
     .scores,
-    h4 {
+    h3 {
         font-size: 1.7rem;
     }
 

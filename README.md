@@ -136,6 +136,12 @@ Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for p
 
 ## **Testing and Validation**
 
+* I tested the game in the following browsers: Chrome, Firefox and Edge.
+* The game has been tested on multiple mobile devices in person and via all the available devices on Dev Tools toolbar.
+* I confirmed the fonts, colors and all text items are clear, adequately contrasted, legible and easy to understand.
+
+
+
 Bugs
 
 - Array problem
