@@ -2,7 +2,8 @@
 
 ## **Site Overview**
 
-The entertaining classic game of chance available for all devices. Play against the computer - the first to score 10 points wins.
+The entertaining classic game of chance available for all devices.
+Play against the computer - the first to score 10 points wins.
 
 ![Am I Responsive Screenshot](assets/images/documentation/am-i-responsive.jpg "Am I Responsive Screenshot")
 
@@ -19,7 +20,6 @@ The entertaining classic game of chance available for all devices. Play against 
    - [Structure and Skeleton](#structure-and-skeleton)
      - [Wireframes](#wireframes)
    - [Current Features](#current-features)
-     - [404 Page](#404-page)
    - [Surface](#surface)
      - [Color Scheme](#color-scheme)
      - [Font](#font)
@@ -39,8 +39,6 @@ The entertaining classic game of chance available for all devices. Play against 
 ---
 
 ## **Project Goals**
-
----
 
 ### **Site Owner Goals**
 
@@ -139,15 +137,15 @@ Buttons after:
 
 ![Footer](assets/images/documentation/footer.jpg "Page footer")
 
-## **Surface**
+### **Surface**
 
-### **Color Scheme**
+#### **Color Scheme**
 
 The basic CSS colors: colours 'thistle', 'indigo' and 'papaywhite' were used to compliment the colors of the 'Rock, Paper, Scissors' images I sourced online:
 
 ![Colors](assets/images/documentation/color-scheme.jpg "Color scheme")
 
-### **Font**
+#### **Font**
 
 Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for player updates) come from Google Fonts.
 
@@ -218,6 +216,8 @@ The site was deployed to GitHub pages using the following steps:
 
 The live link can be found here - [Rock Paper Scissors](https://modonohoe.github.io/rock-paper-scissors/)
 
+---
+
 ## **Credits**
 
 ### **Technologies Used**
@@ -244,3 +244,5 @@ The live link can be found here - [Rock Paper Scissors](https://modonohoe.github
 ### **Acknowledgements**
 
 - Thank you to Code Institute - the content creators, my mentor, the tutors and the Slack community who all contributed to my understanding of JavaScript fundamentals during this project.
+
+[Return to top](#table-of-contents)
