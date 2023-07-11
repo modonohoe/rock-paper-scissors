@@ -165,13 +165,13 @@ Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for p
 
 #### **Solved Bugs**
 
-- I had an issues with my JavaScript syntax which cause my array items not to show. The error was using curved parentheses instead of square ones and this was easily addressed.
+- I had an issues with my JavaScript syntax which cause my array items not to show. The error was using curved parentheses instead of square ones and these were replaced.
 
-- When defining statements to toggle the display, the following did not work:
+- When defining statements to hide the dashboard display and replace it with the restart button, the following code did not work:
 
 ![Syntax Issue](assets/images/documentation/syntax-order.png "Syntax order issues")
 
-Only when the dashboard statement was defined above the restart statement was the display affected.
+Only when the dashboard statement was defined **above** the restart statement was the display affected.
 
 - In the restartGame function, player and computer images needed to be re-sourced as without explicitly doing so resulted in the following error:
 
