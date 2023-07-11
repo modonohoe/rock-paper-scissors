@@ -184,10 +184,19 @@ button:hover {
 
 footer {
     width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     text-align: center;
     background-color: thistle;
+}
+
+footer a {
+    text-decoration: none;
+    font: 1.8rem 'Belanosima', sans-serif;
+    color: indigo;
 }
 
 /* media queries */
