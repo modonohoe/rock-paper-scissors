@@ -59,7 +59,7 @@ The entertaining classic game of chance available for all devices. Play against 
 As a user I would like:
 
 - Minimal text for instructions.
-- A clean and easthetically pleasing interface, with game sounds and music.
+- A clean and aesthetically pleasing interface, with game sounds and music.
 - A functioning game with consitent outcomes that is enjoyable with no delays or lagging.
 - To be able to see my score and have a target.
 - To have the option to play again easily.
@@ -72,7 +72,6 @@ As a user I would like:
 | Computer Challenger                  |     5      |         5 |
 | Human Challenger                     |     5      |         3 |
 | Score tally                          |     5      |         5 |
-| Human Challenger                     |     5      |         3 |
 | Interactive buttons for game choices |     5      |         5 |
 | Feedback comment after each round    |     4      |         5 |
 | Disable buttons when game ends       |     5      |         5 |
@@ -80,12 +79,15 @@ As a user I would like:
 | Music                                |     4      |         4 |
 
 For this iteration all requirements with importance and viability score of 5 have been implemented. In the next version I would like to source some game music to add to the experience. Based on feedback from testers, the option to play against a friend/stranger emerged as important but not viable at present. Comments are not essential for functioning of the game (as the score bar updates shows who is winning) but it is a nice form of feedback and engagement for the user.
+
 Initially the choice buttons displayed as text but feedback from testers suggested these be replaced with icons as they were more attractive. This has been implemented.
 
 Buttons before:
+
 ![Text Buttons](assets/images/documentation/before-buttons.png "Text buttons")
 
 Buttons after:
+
 ![Icon Buttons](assets/images/documentation/after-buttons.png)
 
 ### **Structure and Skeleton**
@@ -94,11 +96,17 @@ Buttons after:
 
 ![Wireframe for Rock Paper Scissors](assets/images/documentation/wireframe-pc-and-mobile.jpg "Wireframe image")
 
-- [Current Features](#current-features)
-  - [404 Page](#404-page)
-- [Surface](#surface)
-  - [Color Scheme](#color-scheme)
-  - [Font](#font)
+#### **Current Features**
+
+## **Surface**
+
+### **Color Scheme**
+
+The color scheme is based on **\*** image. The basic CSS colors: colours 'thistle', indigo and papaywhite were used to compliment these colours.
+
+### **Font**
+
+Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for player updates) come from Google Fonts.
 
 ![]](assets/images/documentation "")
 ![]](assets/images/documentation "")
@@ -111,10 +119,22 @@ Buttons after:
 
 ## **Credits**
 
-- [Media](#media)
-- [Content](#content)
-- [Code](#code)
-- [Acknowledgements](#acknowledgements)
+#### **Technologies Used**
+
+- [Balsamiq](https://balsamiq.com/) to create the wireframes.
+- [HTML5](https://en.wikipedia.org/wiki/HTML) for the content and structure of the site.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) for all styling on the site.
+- [Codeanywhere](https://codeanywhere.com/) IDE for editing the site.
+- [Github](https://github.com/) to host the repository and deploy the site.
+- [Google Dev Tools](https://developer.chrome.com/docs/devtools/) to troubleshoot and test ideas
+- [Tiny PNG](https://tinypng.com/) to compress all images.
+- [Am I Responsive?](https://ui.dev/amiresponsive) to generate an image showing responsivness of the site across multiple devices.
+- [Eight Shapes](https://contrast-grid.eightshapes.com/) for color contrast.
+
+* [Media](#media)
+* [Content](#content)
+* [Code](#code)
+* [Acknowledgements](#acknowledgements)
 
 features
 existing (header, game optionsm game results)
