@@ -141,7 +141,6 @@ Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for p
 - I confirmed the fonts, colors and all text items are clear, adequately contrasted, legible and easy to understand.
 - Initially LightHouse returned a score of 98% as I skipped the use of 'h2' headings and began using 'h3'. This was flagged as bad practice for screen readers and all headings below 'h1' were amended.
 
-The LightHouse score is now 100% for all criteria:
 ![Lighthouse Score](assets/images/documentation/lighthouse-review.jpg)
 
 ### **Bugs**
