@@ -48,9 +48,9 @@ The entertaining classic game of chance available for all devices. Play against 
 - The site will be one page with clear instructions and feedback given to the user at all times (e.g. when hovering the mouse, on clicking, results for each round etc)
 - Dimensions for an extensive list of screen sizes will be tested.
 
-## **UX**
-
 ---
+
+## **UX**
 
 ### **Strategy and Scope**
 
@@ -104,21 +104,35 @@ Buttons after:
 
 ##### **1. Header**
 
+- Displays the game title 'Rock Paper Scissors', in large contrasted text.
+
 ![Header](assets/images/documentation/header.jpg "Header")
 
 ##### **2. Rules**
+
+- A reminder of the rules featuring some FontAwesome icons.
 
 ![Game Rules](assets/images/documentation/rules.jpg "Game rules")
 
 ##### **3. Game Area**
 
+- Here the player will interact with the buttons to make their choices. JavaScript will generate choices for the computer player.
+
+- The player update div will give live commentary on who is winning by test while the score updates below in purple font to make it stand out.
+
+- Communication is clear and consise to the player.
+
 ![Game Area](assets/images/documentation/game-area.jpg "Game Area")
 
 ##### **4. Game Over**
 
+- When the round is won - a new button appears with the option to resart the game.
+
 ![End of Game](assets/images/documentation/end-game.jpg "End of Game")
 
 ##### **5. Footer**
+
+- The footer is 'sticky', it gives a solid bottom to the page. A link to my GitHub page is there if the user wishes to visit the repository.
 
 ![Footer](assets/images/documentation/footer.jpg "Page footer")
 
@@ -126,13 +140,15 @@ Buttons after:
 
 ### **Color Scheme**
 
-The color scheme is based on **\*** image. The basic CSS colors: colours 'thistle', indigo and papaywhite were used to compliment these colours.
+The basic CSS colors: colours 'thistle', 'indigo' and 'papaywhite' were used to compliment the colors of the 'Rock, Paper, Scissors' images I sourced online:
 
 ![Colors](assets/images/documentation/color-scheme.jpg "Color scheme")
 
 ### **Font**
 
 Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for player updates) come from Google Fonts.
+
+---
 
 ## **Testing and Validation**
 
@@ -168,6 +184,7 @@ Only when the dashboard statement was place above the restart statement was the 
 #### Validator testing
 
 - HTML
+
   - One error found - the script tag for the JavaScript file was outside of the body. It should always be at the end of the page for loading reasons but within the body element.
 
   ![Script HTML issue](assets/images/documentation/script-error.jpg "HTML script error")
@@ -181,19 +198,27 @@ Only when the dashboard statement was place above the restart statement was the 
 
 - There are no unfixed bugs.
 
+---
+
 ## **Deployment and Development**
+
+The site was deployed to GitHub pages using the following steps:
+
+1. In the GitHub repository, navigate to the Settings tab from the horizontal menu at the top of the page.
+2. Click the Settings tab and locate the Pages tab on the left menu which appears.
+3. Once you've selected your branch and root directory, click "Save" to deploy your website. GitHub will generate a URL (usually in the format username.github.io/repository-name).
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+
+The live link can be found here - [Rock Paper Scissors](https://modonohoe.github.io/rock-paper-scissors/)
 
 ## **Credits**
 
 #### **Technologies Used**
 
 - [Balsamiq](https://balsamiq.com/) to create the wireframes.
-- [HTML5](https://en.wikipedia.org/wiki/HTML) for the content and structure of the site.
-- [CSS3](https://en.wikipedia.org/wiki/CSS) for all styling on the site.
 - [Codeanywhere](https://codeanywhere.com/) IDE for editing the site.
 - [Github](https://github.com/) to host the repository and deploy the site.
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) to troubleshoot and test ideas
-
 - [Am I Responsive?](https://ui.dev/amiresponsive) to generate an image showing responsivness of the site across multiple devices.
 
 * [Media](#media)
