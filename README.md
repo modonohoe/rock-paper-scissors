@@ -30,6 +30,7 @@ The entertaining classic game of chance available for all devices. Play against 
      - [Unfixed Bugs](#unfixed-bugs)
 5. [**Deployment and Development**](#deployment-and-development)
 6. [**Credits**](#credits)
+   - [Technologies Used](#technologies-used)
    - [Media](#media)
    - [Content](#content)
    - [Code](#code)
@@ -219,7 +220,7 @@ The live link can be found here - [Rock Paper Scissors](https://modonohoe.github
 
 ## **Credits**
 
-#### **Technologies Used**
+### **Technologies Used**
 
 - [Balsamiq](https://balsamiq.com/) to create the wireframes.
 - [Codeanywhere](https://codeanywhere.com/) IDE for editing the site.
@@ -227,7 +228,19 @@ The live link can be found here - [Rock Paper Scissors](https://modonohoe.github
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) to troubleshoot and test ideas
 - [Am I Responsive?](https://ui.dev/amiresponsive) to generate an image showing responsivness of the site across multiple devices.
 
-* [Media](#media)
-* [Content](#content)
-* [Code](#code)
-* [Acknowledgements](#acknowledgements)
+### **Media**
+
+- [Vecteezy.com](https://www.vecteezy.com/free-vector/rock-paper-scissors) the The image for the rock, paper and scissors.
+- [Google Fonts](https://fonts.google.com/) to source and import all fonts.
+- [Font Awesome](https://fontawesome.com/) for the icons in the rules section and GitHub icon in footer.
+- [Favicon](https://favicon.io/) where the site's favicon was sourced.
+
+### **Code**
+
+- Two JavaScript functions were adopted from the 'Rock, Paper, Scissors' walkthrough by Matt Rudge via Code Institute.
+
+- I found this article helpful regarding font-sizing and rem [Why I change the font size to 62.5%](https://javascript.plainenglish.io/why-i-change-the-font-size-to-62-5-in-every-project-45c5ff785fb5)
+
+### **Acknowledgements**
+
+- Thank you to Code Institute - the content creators, my mentor, the tutors and the Slack community who all contributed to my understanding of JavaScript fundamentals during this project.

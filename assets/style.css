@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
 
-    /* Brian Design via YouTube to help with rem sizing */
+    /* 'Medium' article by Ken Nersisyan for font size */
     font: 62.5% 'Belanosima', sans-serif;
 }
 
@@ -149,7 +149,6 @@ button:hover {
     font-size: 2.8rem;
     color: indigo;
 }
-
 
 #computer-image {
     max-width: 127px;
