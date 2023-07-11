@@ -3,6 +3,7 @@
 ## **Site Overview**
 
 The entertaining classic game of chance available for all devices.
+
 Play against the computer - the first to score 10 points wins.
 
 ![Am I Responsive Screenshot](assets/images/documentation/am-i-responsive.jpg "Am I Responsive Screenshot")
@@ -141,7 +142,7 @@ Buttons after:
 
 #### **Color Scheme**
 
-The basic CSS colors: colours 'thistle', 'indigo' and 'papaywhite' were used to compliment the colors of the 'Rock, Paper, Scissors' images I sourced online:
+The basic CSS colors: 'thistle', 'indigo' and 'papaywhite' were used to compliment the colors of the 'Rock, Paper, Scissors' image (colors identified using [Adobe Color Image](https://color.adobe.com/create/image).)
 
 ![Colors](assets/images/documentation/color-scheme.jpg "Color scheme")
 
