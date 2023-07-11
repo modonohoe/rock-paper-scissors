@@ -118,7 +118,7 @@ button:hover {
 /* styling for player updates */
 #player-updates {
     padding-top: 1rem;
-    font-size: 4rem;
+    font-size: 3rem;
     color: indigo;
 }
 
@@ -209,7 +209,7 @@ footer a {
     }
 
     #player-updates {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -238,7 +238,6 @@ footer a {
     }
 
 }
-
 
 /* specific query for Google Nest hub and short but wide devices where sticky footer overlaps player score*/
 @media only screen and (max-height: 670px) {
