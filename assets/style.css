@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
 
-    /* Brian Design via YouTube to help with rem sizing*/
+    /* Brian Design via YouTube to help with rem sizing */
     font: 62.5% 'Belanosima', sans-serif;
 }
 
@@ -213,7 +213,37 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 565px) and (min-width: 431px) {
 
-    h1 {}
+    h1 {
+        padding-top: 0.5rem;
+        font: 4rem 'Chelsea Market', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    h1 {
+        padding-top: 0.5rem;
+        font: 2.8rem 'Chelsea Market', sans-serif;
+    }
+
+    h3 {
+        font: 1.7rem 'Chelsea Market', sans-serif;
+    }
+
+    .scores,
+    h4 {
+        font-size: 1.7rem;
+    }
+
+}
+
+
+/* specific query for Google Nest hub and short but wide devices where sticky footer overlaps player score*/
+@media only screen and (max-height: 670px) and (min-width: 500px) {
+
+    footer {
+        position: relative;
+    }
 }
