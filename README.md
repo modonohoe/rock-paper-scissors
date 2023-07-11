@@ -78,7 +78,11 @@ As a user I would like:
 | Restart button                       |     5      |         5 |
 | Music                                |     4      |         4 |
 
-For this iteration all requirements with importance and viability score of 5 have been implemented. In the next version I would like to source some game music to add to the experience. Based on feedback from testers, the option to play against a friend/stranger emerged as important but not viable at present. Comments are not essential for functioning of the game (as the score bar updates shows who is winning) but it is a nice form of feedback and engagement for the user.
+For this iteration, all requirements with importance and viability score of 5 have been implemented.
+
+In the next version I would like to source some game music to add to the experience. Based on feedback from testers, the option to play against a friend/stranger emerged as important but not viable at present.
+
+Comments are not essential for functioning of the game (as the score bar updates shows who is winning) but it is a nice form of feedback and engagement for the user.
 
 Initially the choice buttons displayed as text but feedback from testers suggested these be replaced with icons as they were more attractive. This has been implemented.
 
@@ -98,18 +102,37 @@ Buttons after:
 
 #### **Current Features**
 
+##### **1. Header**
+
+![Header](assets/images/documentation/header.jpg "Header")
+
+##### **2. Rules**
+
+![Game Rules](assets/images/documentation/rules.jpg "Game rules")
+
+##### **3. Game Area**
+
+![Game Area](assets/images/documentation/game-area.jpg "Game Area")
+
+##### **4. Game Over**
+
+![End of Game](assets/images/documentation/end-game.jpg "End of Game")
+
+##### **5. Footer**
+
+![Footer](assets/images/documentation/footer.jpg "Page footer")
+
 ## **Surface**
 
 ### **Color Scheme**
 
 The color scheme is based on **\*** image. The basic CSS colors: colours 'thistle', indigo and papaywhite were used to compliment these colours.
 
+![Colors](assets/images/documentation/color-scheme.jpg "Color scheme")
+
 ### **Font**
 
 Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for player updates) come from Google Fonts.
-
-![]](assets/images/documentation "")
-![]](assets/images/documentation "")
 
 ## **Testing and Validation**
 
@@ -127,9 +150,8 @@ Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for p
 - [Codeanywhere](https://codeanywhere.com/) IDE for editing the site.
 - [Github](https://github.com/) to host the repository and deploy the site.
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) to troubleshoot and test ideas
-- [Tiny PNG](https://tinypng.com/) to compress all images.
+
 - [Am I Responsive?](https://ui.dev/amiresponsive) to generate an image showing responsivness of the site across multiple devices.
-- [Eight Shapes](https://contrast-grid.eightshapes.com/) for color contrast.
 
 * [Media](#media)
 * [Content](#content)
