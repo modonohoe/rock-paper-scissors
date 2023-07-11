@@ -1,5 +1,4 @@
 // Constants
-
 const buttons = document.getElementsByClassName("control");
 const restartButton = document.getElementById("restart-button");
 const playerScore = document.getElementById("player-score");
@@ -10,13 +9,14 @@ const playerUpdates = document.getElementById("player-updates");
 const choices = ["rock", "paper", "scissors"];
 const dashboard = document.getElementById("game");
 
-let gameOver = false; //false at the beginning and can be made true to trigger endGame
+//false at the beginning and can be made true to trigger endGame
+let gameOver = false;
 
 // The restart button will only appear at the end of the game
 restartButton.style.display = "none";
 
+// This function has been adopted from the Code Institute walkthrough project by Matt Rudge
 // Event listeners for the buttons
-
 for (let button of buttons) {
     button.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
@@ -25,6 +25,7 @@ for (let button of buttons) {
 
 }
 
+// This function has been adopted from the Code Institute walkthrough project by Matt Rudge
 /**
  * Main game function. Accepts one parameter;
  * the data-choice of the button selected
@@ -47,8 +48,8 @@ function playGame(playerChoice) {
 
 /**
  * Checks the winner of the game
- * Accepts two strings
-**/
+ * Accepts two strings - computer and player's choices
+ */
 
 function checkWinner(computerChoice, playerChoice) {
     if (computerChoice === playerChoice) {
@@ -65,7 +66,7 @@ function checkWinner(computerChoice, playerChoice) {
 }
 
 /**
- * Updates score 
+ * Updates score a depending on the return of the checkWinner function
  */
 
 function updateScores(result) {
@@ -82,9 +83,15 @@ function updateScores(result) {
             endGame("computer");
         }
     } else {
-        playerUpdates.textContent = "Draw... you both lose :P";
+        playerUpdates.textContent = "Draw... you both lose.";
     }
 }
+
+/**
+ * Determines the overall winner
+ * Diasables buttons and hides them so no further choices can be made
+ * Shows the restart button.
+ */
 
 function endGame(winner) {
     gameOver = true;
@@ -98,6 +105,11 @@ function endGame(winner) {
     restartButton.addEventListener("click", restartGame);
 }
 
+/**
+ * Resets the game.
+ * Hides the restart button and enables use of buttons again.
+ */
+
 function restartGame() {
     gameOver = false;
     dashboard.style.display = "inline";
@@ -109,8 +121,7 @@ function restartGame() {
     playerUpdates.textContent = "aaaaand... begin!";
     restartButton.style.display = "none";
     for (let button of buttons) {
-        button.disabled = false; // Enable the buttons
-
+        button.disabled = false;
     }
 }
 
