@@ -2,20 +2,18 @@
 
 ## **Site Overview**
 
-The entertaining classic game of chance available for all devices. Play against the computer - the first to score 10 wins.
+The entertaining classic game of chance available for all devices. Play against the computer - the first to score 10 points wins.
 
 ![Am I Responsive Screenshot](assets/images/documentation/am-i-responsive.jpg "Am I Responsive Screenshot")
 
 ## **Table Of Contents**
-
----
 
 1. [**Site Overview**](#site-overview)
 2. [**Project Goals**](#project-goals)
    - [Site Owner Goals](#site-owner-goals)
    - [How This Will Be Achieved](#how-this-will-be-achieved)
 3. [**UX**](#ux)
-   - [Strategy and Scope]
+   - [Strategy and Scope](#strategy-and-scope)
      - [User Stories](#user-stories)
      - [User Requirements](#user-requirements)
    - [Structure and Skeleton](#structure-and-skeleton)
@@ -25,7 +23,11 @@ The entertaining classic game of chance available for all devices. Play against 
    - [Surface](#surface)
      - [Color Scheme](#color-scheme)
      - [Font](#font)
-4. [**Testing and Validation**](#testing-and-validation) \* bugs
+4. [**Testing and Validation**](#testing-and-validation)
+   - [Bugs](#bugs)
+     - [Solved Bugs](#solved-bugs)
+     - [Validatior Testing](#validator-testing)
+     - [Unfixed Bugs](#unfixed-bugs)
 5. [**Deployment and Development**](#deployment-and-development)
 6. [**Credits**](#credits)
    - [Media](#media)
@@ -82,7 +84,7 @@ For this iteration, all requirements with importance and viability score of 5 ha
 
 In the next version I would like to source some game music to add to the experience. Based on feedback from testers, the option to play against a friend/stranger emerged as important but not viable at present.
 
-Comments are not essential for functioning of the game (as the score bar updates shows who is winning) but it is a nice form of feedback and engagement for the user.
+Comments are not essential for functioning of the game (as the score bar updates and shows who is winning) but it is a nice form of feedback and engagement for the user.
 
 Initially the choice buttons displayed as text but feedback from testers suggested these be replaced with icons as they were more attractive. This has been implemented.
 
@@ -98,7 +100,7 @@ Buttons after:
 
 #### **Wireframe**
 
-![Wireframe for Rock Paper Scissors](assets/images/documentation/wireframe-pc-and-mobile.jpg "Wireframe image")
+![Wireframe for Rock Paper Scissors](assets/images/wireframe-pc-and-mobile.jpg "Wireframe image")
 
 #### **Current Features**
 
@@ -169,7 +171,7 @@ Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for p
 
 ![Syntax Issue](assets/images/documentation/syntax-order.png "Syntax order issues")
 
-Only when the dashboard statement was place above the restart statement was the display affected.
+Only when the dashboard statement was defined above the restart statement was the display affected.
 
 - In the restartGame function, player and computer images needed to be re-sourced as without explicitly doing so resulted in the following error:
 
@@ -179,9 +181,13 @@ Only when the dashboard statement was place above the restart statement was the 
 
 ![Computer can't Score](assets/images/documentation/no-computer-wins.png "Computer scoring issue")
 
+- The hover effects still appears when a button is disabled. I found this bad for UX and as the buttons were no longer needed after the game ends I chose to hide them instead.
+
+![Hover issue](assets/images/documentation/hover-appearing.png "Hover when buttons disabled")
+
 - For most devices, the game will fill the height of the screen. There are a couple of shorter devices - namely the Google Nest Hub - where the sticky footer became an issue and overlapped/hid the scores. This was resolved with a media query where the display was changed to 'relative' on such devices.
 
-#### Validator testing
+#### **Validator testing**
 
 - HTML
 
