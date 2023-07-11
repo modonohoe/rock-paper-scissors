@@ -136,7 +136,15 @@ Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for p
 
 ## **Testing and Validation**
 
-    * bugs
+Bugs
+
+- Array problem
+- Overlapping footer
+  links?
+
+  Vallidator testing
+
+Unfixed bugs
 
 ## **Deployment and Development**
 
@@ -157,28 +165,3 @@ Both 'sans-serif' fonts, 'Chelsea Market' (for headings) and 'Belanosima''(for p
 * [Content](#content)
 * [Code](#code)
 * [Acknowledgements](#acknowledgements)
-
-features
-existing (header, game optionsm game results)
-
-footer
-
-Future features - two player, music,
-
-Testing
-
-Bugs
-
-- Array problem
-- Overlapping footer
-  links?
-
-Vallidator testing
-
-Unfixed bugs
-
-Deployments
-
-Credits
-
-Media
