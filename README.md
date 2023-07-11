@@ -168,8 +168,11 @@ Only when the dashboard statement was place above the restart statement was the 
 #### Validator testing
 
 - HTML
+  - One error found - the script tag for the JavaScript file was outside of the body. It should always be at the end of the page for loading reasons but within the body element.
 
-  - No errors found
+  ![Script HTML issue](assets/images/documentation/script-error.jpg "HTML script error")
+
+  This has been addressed and no there are no HTML errors.
 
 - CSS
   - No errors found
