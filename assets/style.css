@@ -241,7 +241,7 @@ footer a {
 
 
 /* specific query for Google Nest hub and short but wide devices where sticky footer overlaps player score*/
-@media only screen and (max-height: 670px) and (min-width: 500px) {
+@media only screen and (max-height: 670px) {
 
     footer {
         position: relative;
